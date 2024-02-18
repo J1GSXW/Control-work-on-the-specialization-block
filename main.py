@@ -2,8 +2,7 @@ import json
 import os
 from datetime import datetime
 
-notes_file = ("D:\\Geekbrains\\Промежуточная контрольная работа по блоку специализация\\Приложение заметки ("
-              "Python)\\notes.json")
+notes_file = (os.path.abspath('notes.json'))
 
 
 def load_notes():
