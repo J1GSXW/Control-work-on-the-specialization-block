@@ -2,8 +2,6 @@ import json
 import os
 from datetime import datetime
 
-print(os.path.abspath('notes.json'))
-
 notes_file = ("D:\\Geekbrains\\Промежуточная контрольная работа по блоку специализация\\Приложение заметки ("
               "Python)\\notes.json")
 
@@ -94,7 +92,7 @@ def main():
         print("4. Удалить заметку")
         print("5. Просмотреть заметку")
         print("6. Выход")
-        choice = input("Введите номер выбранного действия: \n")
+        choice = input("Введите номер выбранного действия: ")
 
         if choice == "1":
             list_notes(notes)
